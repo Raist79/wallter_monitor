@@ -15,7 +15,7 @@ class MinimalSubscriber(Node):
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
-        os.system('cls||clear')
+        
 
 
     def listener_callback(self, msg):
